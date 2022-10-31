@@ -189,13 +189,88 @@ main{
   grid-row-start: 2;
   grid-row-end: 2;
   grid-column: auto;
+  font-family: open Sans;
 }
 
 #banner{
+  
+  color: hsla(0, 0%, 94%, 1);
   height: calc(100vh - 6.25rem) ;
   width: 100%;
+  padding-top: 4rem;
+  padding-left: 8.26% ;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-image: radial-gradient(80.87% 481.72% at 15.17% 35.76%, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.54) 51.88%, rgba(0, 0, 0, 0.24) 100%), url(Assets/nathan-dumlao-KixfBEdyp64-unsplash\ 1.png);
 }
+
+#conteudobanner{
+  display: flex;
+  flex-direction: column;
+  width: 36.813rem;
+  height: 25.438rem;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+#infobanner{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 19.375rem;
+}
+
+#infobanner h1{
+  font-weight: 700;
+  font-size: 3.5rem;
+}
+
+#infobanner p{
+  font-weight: 400;
+  font-size: 1.5rem;
+  width: 32.125rem;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
+}
+
+main a{
+  width: 17.688rem;
+  height: 3.563rem;
+  border-radius: 0.5rem;
+  background-color: hsla(24, 51%, 37%, 1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 30px;
+  font-size: 1.125rem;
+  font-weight: 800;
+  color: hsla(0, 0%, 94%, 1);
+}
+
+main a:hover{
+  background-color: hsla(24, 48%, 60%, 1);
+  ;
+  color: hsla(0, 0%, 100%, 1);
+}
+
+main .texttitle{
+  font-weight: 400;
+  font-size: 40px;
+  width: 255px;
+  height: 56px;
+  position: relative;
+}
+/*
+main h2::after{
+  content: '';
+  display: block;
+  width: 255px;
+  height: 28px;
+  margin: 0 auto;
+  background-color: hsla(24, 91%, 82%, 1);
+
+  position: absolute;
+}
+*/
