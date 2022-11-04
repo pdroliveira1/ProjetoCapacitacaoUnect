@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&display=swap');
+
+
+header{
+  height: 6.25rem;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
+  justify-content: space-between;
+  align-items: center;
+  justify-items: center;
+  background-color: hsla(24, 78%, 19%, 1);
+  font-family: Cormorant Garamond;
+  font-weight: 700;
+  font-size: 18px;
+  color: hsla(27, 44%, 86%, 1);
+  position: fixed;
+  z-index: 4;
+}
+
+header a{
+  color: hsla(27, 44%, 86%, 1);
+  position: relative;
+}
+
+header .opcao::after{
+  content: '';
+  display: block;
+  width: 2.688rem;
+  height: 0.125rem;
+  margin: 0 auto;
+  background-color: hsla(27, 41%, 49%, 1);
+  position: relative;
+  border-radius: 1px;
+}
+
+header #logoHeader{
+  display: flex;
+  flex-direction: column;
+  width: 8.625rem;
+  height: 5.313rem;
+  font-weight: 400;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header #telefoneHeader{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 7.375rem;
+}

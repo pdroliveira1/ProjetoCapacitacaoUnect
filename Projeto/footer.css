@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&display=swap');
+
+footer{
+  background-color: hsla(24, 78%, 19%, 1);
+  color: hsla(27, 44%, 86%, 1);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  grid-row-start: 3;
+  grid-row-end: 3;
+  align-items: center;
+  font-family: Open Sans;
+  
+}
+
+footer #informacoes{
+  display: flex;
+  width: 83.3%;
+  margin-top: 3rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  
+}
+
+footer #logofooter p{
+  display: flex;
+  flex-direction: column;
+  width: 15.375rem;
+  height: 13.125rem;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Cormorant Garamond;
+  font-weight: 400;
+  font-size: 2rem;
+  margin-right: 10.125rem;
+}
+
+footer #logofooter p img{
+  width: 7.938rem;
+  height: 10.127rem;
+}
+
+footer #dados{
+  display: flex;
+  align-items: flex-start;
+}
+
+footer #dados img{
+  padding-right: 0.5rem;
+}
+
+
+
+footer #dados li{
+  font-size: 1rem;
+  font-weight: 700;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+footer #dados #endereco{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start; 
+  width: 14rem;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
+}
+
+footer #contato{
+  width: 16.063rem;
+  height: 14.375rem;
+  margin-right: 3.063rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+footer #contato ul{
+  width: 16.063rem;
+  height: 10.201rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+footer #redessociais{
+  width: 12.75rem;
+  height: 8.786rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+footer #redessociais ul{
+  width: 12.75rem ;
+  height: 4.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+footer #rodape{
+  width: 83.3%;
+  height: 5.125rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 2px solid hsla(26, 43%, 46%, 1);
+  font-size: 1rem;
+  font-weight: 400;
+}
