@@ -1,16 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&display=swap');
 
-body{
-  display: grid;
-  grid-template-rows: 6.25rem auto 25.125rem ;
-  
-}
 
-main{
-  grid-row-start: 2;
-  grid-row-end: 2;
-  font-family: open Sans;
-}
+
+
 
 #banner{
   
