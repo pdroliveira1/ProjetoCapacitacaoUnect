@@ -27,6 +27,7 @@ main{
   align-items: center;
   justify-content: space-between;
   padding: 12px 30px;
+  font-family: Open Sans;
   font-size: 1.125rem;
   font-weight: 800;
   color: hsla(0, 0%, 94%, 1);
@@ -39,8 +40,8 @@ main{
 
 
 main .decoration h2{
-  width: 255px;
-  height: 56px;
+  width: auto;
+  height: auto;
   color: hsla(23, 100%, 6%, 1);
   font-family: Cormorant Garamond;
   font-weight: 700;
@@ -57,7 +58,7 @@ main .decoration h2{
   align-items: center;
   width: 100%;
   height: 28px;
-  bottom: 40%;
+  bottom: 30%;
   margin: 0 auto;
   background-color: hsla(24, 91%, 82%, 1);
   position: relative;
