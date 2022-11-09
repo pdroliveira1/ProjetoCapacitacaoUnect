@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+#contact-box {
+  display: flex;
+  margin-bottom: 3.5rem;
+}
+
+#info-lateral {
+  display: inline-block;
+
+  width: 31.875rem;
+
+  background: hsla(24, 51%, 37%, 1);
+  border-radius: 0.5rem 0rem 0rem 0.5rem;
+
+  margin-left: 7.375rem;
+  padding: 2.69rem 7.875rem 2.5rem 2.5rem;
+}
+
+#basic-info::after {
+  content: '';
+  display: flex;
+
+  width: 21.75rem;
+  height: 0.19rem;
+
+  background: hsla(27, 41%, 49%, 1);
+  border-radius: 2rem;
+
+  margin-top: 1.56rem;
+  margin-bottom: 1.56rem;
+}
+
+#social-info {
+  margin-bottom: 8.94rem;
+}
+
+#info-boxes {
+  background: hsla(45, 29%, 95%, 1);
+  border-radius: 0rem 0.5rem 0rem 0.5rem;
+
+  width: 43.125rem;
+
+  padding-top: 2.69rem;
+  padding-left: 2.5rem;
+}
+.main-title {
+  color: hsla(23, 100%, 6%, 1);
+
+  font-family: 'Cormorant Garamond';
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 3rem;
+  letter-spacing: 0.02em;
+
+  margin-top: 2.625rem;
+  margin-left: 7.375rem;
+  margin-bottom: 1.81rem;
+}
+
+.main-title::after {
+  content: '';
+  display: flex;
+  z-index: -1;
+
+  width: 27.375rem;
+  height: 1.75rem;
+
+  background: hsla(24, 91%, 82%, 1);
+
+  margin-top: -1.45rem;
+  margin-left: -1.15rem;
+}
+
+.info-img {
+  margin-right: 0.5rem;
+}
+
+.info {
+  display: flex;
+  color: hsla(27, 44%, 86%, 1);
+
+  font-family: 'Open Sans';
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.03em;
+
+  width: 16rem;
+
+  align-items: center;
+
+  margin-bottom: 1rem;
+}
+
+.logo-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0.56rem;
+}
+
+.logo-name {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+  color: hsla(27, 44%, 86%, 1);
+
+  font-family: 'Cormorant Garamond';
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 2.42rem;
+}
+
+.button {
+  display: inline-block;
+
+  background: hsla(24, 51%, 37%, 1);
+  border-radius: 0.5rem;
+
+  margin-top: 2rem;
+  padding: 0.75rem 1.63rem;
+}
+
+.button-txt {
+  display: inline-block;
+
+  color: hsla(0, 0%, 94%, 1);
+
+  text-decoration: none;
+  font-family: 'Open Sans';
+  font-size: 1.125rem;
+  font-weight: 800;
+  line-height: 2.06rem;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.button-img {
+  margin-left: 1.25rem;
+}
+
+.title-form {
+  display: block;
+  color: hsla(23, 100%, 6%, 1);
+  
+  font-family: 'Open Sans';
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.875rem;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+
+  margin-top: 2rem;
+  margin-bottom: 0.25rem;
+}
+
+input {
+  border: 1px solid hsla(24, 51%, 37%, 1);
+  border-radius: 0.5rem;
+
+  font-size: 1.125rem;
+
+  width: 38.06rem;
+
+  padding: 2rem 1rem;
+}
+
+.input-nome,
+.input-email {
+  height: 4.37rem;
+}
+
+.input-mensagem {
+  height: 13.75rem;
+}
