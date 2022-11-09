@@ -9,13 +9,14 @@
 body{
   display: grid;
   grid-template-rows: 6.25rem auto 25.125rem ;
-  
+  width: calc(100vw - 17px);
 }
 
 main{
   grid-row-start: 2;
   grid-row-end: 2;
   font-family: open Sans;
+  width: calc(100vw - 17px);
 }
 
 .buttondecoration{
@@ -46,7 +47,7 @@ main .decoration h2{
   font-family: Cormorant Garamond;
   font-weight: 700;
   font-size: 2.5rem;
-  padding-left: 1rem;
+  padding: 0 1rem;
   position: relative;
   z-index: 2;
 }

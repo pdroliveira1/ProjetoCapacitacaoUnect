@@ -21,7 +21,8 @@
   display: flex;
   flex-direction: column;
   width: 36.813rem;
-  height: 25.438rem;
+  height: 100%;
+  max-height: 25.438rem;
   justify-content: space-between;
   align-items: flex-start;
 }
@@ -29,7 +30,7 @@
 #infobanner{
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  row-gap: 1em;
   height: 19.375rem;
 }
 
@@ -51,23 +52,22 @@ main #sobre {
   width: 100%;
   height: calc(100vh - 6.25rem);
   background-color: hsla(45, 29%, 95%, 1);
-  padding-top: 3.5rem;
-  padding-left: 6.5rem;
-  padding-right: 10.938rem;
+  padding: 3.5rem 10.938rem 5.5rem 6.5rem;
 }
 
 main  #conteudosobre{
   display: flex;
   width: 100%;
-  height: 24.75rem;
+  height: 100%;
   justify-content: space-between;
   align-items: flex-end;
  
 }
 
 main #infosobre{
-  height: 24.75rem;
-  width: 36.813rem;
+  height: 100%;
+  width: 100%;
+  max-width: 36.813rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -75,14 +75,15 @@ main #infosobre{
  position: relative; 
 }
 
-main #sobre #imagemsobre{
-  width: 22rem;
-  height: 21.276rem;
+main #sobre #imagemsobre { 
+  width: 35% ;
+  height: auto;
 }
 
 main #textosobre{
-  width: 36.875rem ;
+  width: 100% ;
   height: 18.75rem;
+  max-width: 36.875rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -91,7 +92,8 @@ main #textosobre{
 
 main #paragrafosobre{
   height: 11.5rem;
-  width: 36rem;
+  width: 100%;
+  max-width: 36rem;
   font-size: 1.125rem;
   font-weight: 400;
   display: flex;
@@ -165,7 +167,9 @@ main #venhaseapaixonar h2::after{
 main #linkServicos{
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  column-gap: ;
+  flex-wrap: wrap;
   width: 49.5rem;
 }
 
@@ -178,4 +182,61 @@ main #venhaseapaixonar .buttondecoration{
 main #venhaseapaixonar .buttondecoration:hover{
   background-color: hsla(24, 100%, 90%, 1);
   color: hsla(23, 85%, 12%, 1);
+}
+
+@media (max-width: 640px) {
+
+  #banner{
+    width: 100%;
+    height: 100%;
+    max-height: 344px;
+    padding: 32px 47px 56px 24px;
+  }
+
+  #conteudobanner{
+    width: 100%;
+    height: 100%;
+    max-width: none;
+    max-height: none;
+
+  }
+
+  #infobanner{
+    height: 100%;
+  }
+
+  #infobanner h1{
+    font-size: 40px;
+  }
+
+  #infobanner p{
+    font-size: 20px;
+  }
+
+main #sobre{
+    padding-top: 32px ;
+    padding-right: 24px ;
+    padding-bottom: 32px ;
+    padding-left: 24px;
+  }
+
+  #imagemsobre{
+    display: none;
+  }
+
+  #imgcafe{
+    background-size: contain;
+  }
+
+  #logofooter{
+    display: none;
+  }
+
+
+
+
+
+
+
+
 }

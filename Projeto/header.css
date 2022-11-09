@@ -37,7 +37,6 @@ header .opcao::after{
 header #logoHeader{
   display: flex;
   flex-direction: column;
-  width: 8.625rem;
   height: 5.313rem;
   font-weight: 400;
   align-items: center;
@@ -48,5 +47,8 @@ header #telefoneHeader{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 7.375rem;
+}
+
+header #telefoneHeader img{
+  margin-right: 8px;
 }
