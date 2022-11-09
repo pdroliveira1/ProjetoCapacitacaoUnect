@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+#banner {
+  color: hsla(27, 44%, 86%, 1);
+  font-size: 5.5rem;
+  font-family: 'Cormorant Garamond';
+  line-height: 6.69rem;
+
+  width: auto;
+  height: calc(100vh - 6.25rem);
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: radial-gradient(
+      80.87% 481.72% at 15.17% 35.76%,
+      rgba(0, 0, 0, 0.6) 0%,
+      rgba(0, 0, 0, 0.54) 51.88%,
+      rgba(0, 0, 0, 0.24) 100%
+    ),
+    url(/Assets/cafe-sobre-nos-titulo.png);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 3.25rem;
+}
+
+#quem-somos {
+  margin-left: 7.5rem;
+  margin-bottom: 2.4rem;
+  width: 37.94rem;
+}
+
+#quem-somos .topic-title {
+  color: hsla(23, 100%, 6%, 1);
+  line-height: 3.5rem;
+
+  margin-bottom: 2.5rem;
+}
+
+#quem-somos .topic-title::after {
+  display: flex;
+  content: '';
+  width: 18.81rem;
+  height: 1.75rem;
+  background: hsla(24, 91%, 82%, 1);
+
+  z-index: -1;
+  margin-top: -2rem;
+  margin-left: -1rem;
+}
+
+#content-quemSomos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+
+  gap: 6.69rem;
+}
+
+#paragraphs-quemSomos {
+  width: 37.94rem;
+}
+
+#nosso-time {
+  background: hsla(24, 61%, 31%, 1);
+
+  padding-block: 3.5rem;
+}
+
+#nosso-time .topic-title {
+  text-align: center;
+  color: hsla(45, 29%, 95%, 1);
+  line-height: 3rem;
+
+  margin-bottom: 2.75rem;
+}
+
+#nosso-time .topic-title::after {
+  content: '';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: hsla(27, 41%, 49%, 1);
+
+  border-radius: 2rem;
+
+  width: 11.25rem;
+  height: 0.2rem;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.topic-title {
+  font-size: 2.5rem;
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3.5rem;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.txt-quemSomos {
+  font-size: 1.125rem;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  line-height: 1.75rem;
+  color: hsla(23, 100%, 6%, 1);
+
+  margin-bottom: 1.5rem;
+}
+
+.img-quemSomos {
+  margin-left: 13rem;
+  margin-bottom: 4.48rem;
+}
+
+.box-nossoTime {
+  display: grid;
+  grid-template-columns: 0.4fr 1fr;
+  justify-items: center;
+  align-items: center;
+
+  width: 62.25rem;
+  height: 16.62rem;
+
+  border-radius: 0.5rem;
+
+  background: hsla(45, 29%, 95%, 1);
+
+  padding-top: 1.06rem;
+  padding-bottom: 1.06rem;
+  padding-left: 2.44rem;
+  padding-right: 7.125rem;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+}
+
+.content-box-nossoTime {
+  margin-left: 1.19rem;
+}
+
+.box-nome {
+  color: hsla(23, 100%, 6%, 1);
+  font-family: 'Open Sans';
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.875rem;
+  letter-spacing: 0.02em;
+
+  margin-bottom: 1.5rem;
+  display: inline-block;
+}
+
+.box-nome::after {
+  content: '';
+  display: flex;
+
+  background: hsla(27, 41%, 49%, 1);
+
+  width: auto;
+  height: 0.125rem;
+}
+
+.box-txt {
+  width: 35.94rem;
+
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  color: hsla(23, 100%, 6%, 1);
+}
