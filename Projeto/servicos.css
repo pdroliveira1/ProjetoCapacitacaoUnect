@@ -38,7 +38,6 @@ main{
 
 #livraria .decoration{
   width: 227px;
-  height: 84px;
 }
 
 #conteinerlivraria{
@@ -172,7 +171,6 @@ https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp */
 
 #conteinerformulario .decoration{
   width: 30.25rem;
-  height: 5.25rem;
 }
 
 #formulario{
