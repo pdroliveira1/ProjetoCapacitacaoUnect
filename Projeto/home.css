@@ -50,7 +50,7 @@
 
 main #sobre {
   width: 100%;
-  height: calc(100vh - 6.25rem);
+  height: auto;
   background-color: hsla(45, 29%, 95%, 1);
   padding: 3.5rem 10.938rem 5.5rem 6.5rem;
 }
@@ -60,7 +60,7 @@ main  #conteudosobre{
   width: 100%;
   height: 100%;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: flex-start;
  
 }
 
@@ -70,15 +70,14 @@ main #infosobre{
   max-width: 36.813rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: baseline;
- position: relative; 
 }
 
 main #sobre #imagemsobre { 
   width: 35% ;
   height: auto;
 }
+
 
 main #textosobre{
   width: 100% ;
@@ -104,20 +103,30 @@ main #paragrafosobre{
 
 #imgcafe{
   width: 100%;
-  height: 12.438rem;
-  background-image: url(Assets/Cafe\ onda.png);
+  max-height: 12%;
+  min-height: 5%;
+  /* background-image: url(Assets/Cafe\ onda.png);
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
   position: relative;
-  
+  display: flex;
+  align-items: center;
 }
+
+#imgcafe img{
+
+  width: 100%;
+  height: auto;
+
+}
+
 
 #imgcafe::before{
   content: '';
   display: block;
   width: 100%;
-  height: 50%;
+  height: 100%;
   background-color: hsla(45, 29%, 95%, 1);
   position: absolute;
   z-index: -2;
@@ -168,7 +177,7 @@ main #linkServicos{
   display: flex;
   align-items: center;
   justify-content: center;
-  column-gap: ;
+  column-gap: 1rem;
   flex-wrap: wrap;
   width: 49.5rem;
 }

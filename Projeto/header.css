@@ -4,11 +4,10 @@
 header{
   height: 6.25rem;
   width: 100%;
-  display: grid;
-  grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
+  display: flex;
   justify-content: space-between;
   align-items: center;
-  justify-items: center;
+
   background-color: hsla(24, 78%, 19%, 1);
   font-family: Cormorant Garamond;
   font-weight: 700;
@@ -17,6 +16,20 @@ header{
   position: fixed;
   z-index: 4;
 }
+
+header .item{
+  flex-grow: 1;
+}
+
+
+header .opcao{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
 
 header a{
   color: hsla(27, 44%, 86%, 1);
@@ -37,6 +50,7 @@ header .opcao::after{
 header #logoHeader{
   display: flex;
   flex-direction: column;
+  flex-grow: 3;
   height: 5.313rem;
   font-weight: 400;
   align-items: center;
@@ -46,7 +60,8 @@ header #logoHeader{
 header #telefoneHeader{
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  column-gap: 0.25rem;
 }
 
 header #telefoneHeader img{
