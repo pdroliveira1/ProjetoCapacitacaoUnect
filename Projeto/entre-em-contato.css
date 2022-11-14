@@ -146,6 +146,10 @@
   margin-left: 1.25rem;
 }
 
+.button:hover {
+  background: hsla(24, 48%, 60%, 1);
+}
+
 .title-form {
   display: block;
   color: hsla(23, 100%, 6%, 1);
