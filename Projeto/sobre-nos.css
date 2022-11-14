@@ -31,7 +31,6 @@
 #quem-somos {
   margin-left: 7.5rem;
   margin-bottom: 2.4rem;
-  width: 37.94rem;
 }
 
 #quem-somos .topic-title {
@@ -54,8 +53,7 @@
 }
 
 #content-quemSomos {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
   align-items: center;
 
   gap: 6.69rem;
@@ -63,6 +61,11 @@
 
 #paragraphs-quemSomos {
   width: 37.94rem;
+  display: inline-block;
+}
+
+#paragraphs-quemSomos .txt-quemSomos {
+  width: auto;
 }
 
 #nosso-time {
@@ -95,6 +98,24 @@
   margin-right: auto;
 }
 
+#box-nossoTime {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+
+  width: 62.25rem;
+  height: auto;
+  max-width: 100%;
+
+  border-radius: 0.5rem;
+
+  background: hsla(45, 29%, 95%, 1);
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+}
+
 .topic-title {
   font-size: 2.5rem;
   font-family: 'Cormorant Garamond';
@@ -117,33 +138,25 @@
 
 .img-quemSomos {
   margin-bottom: 4.48rem;
+  margin-left: 13.03rem;
+
+  max-width: 100%;
 }
 
-.box-nossoTime {
-  display: grid;
-  grid-template-columns: 0.4fr 1fr;
-  justify-items: center;
-  align-items: center;
+.box-carolina {
+  padding: 1.125rem 7.125rem 1.125rem 2.44rem;
+}
 
-  width: 62.25rem;
-  height: 16.62rem;
+.box-laura {
+  padding: 2.125rem 7.125rem 2.125rem 2.44rem;
+}
 
-  border-radius: 0.5rem;
-
-  background: hsla(45, 29%, 95%, 1);
-
-  padding-top: 1.06rem;
-  padding-bottom: 1.06rem;
-  padding-left: 2.44rem;
-  padding-right: 7.125rem;
-
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 2rem;
+.box-joao {
+  padding: 1.06rem 7.125rem 1.06rem 2.44rem;
 }
 
 .content-box-nossoTime {
-  margin-left: 1.19rem;
+  margin-left: 1.5625rem;
 }
 
 .box-nome {
@@ -169,11 +182,51 @@
 }
 
 .box-txt {
-  width: 35.94rem;
+  width: auto;
 
   font-family: 'Open Sans';
   font-weight: 400;
   font-size: 1.125rem;
   line-height: 1.75rem;
   color: hsla(23, 100%, 6%, 1);
+
+  display: inline-block;
+}
+
+/*Media Queries*/
+@media (max-width: 45.375rem) {
+  h1 {
+    text-align: center;
+  }
+}
+
+@media (max-width: 72.5rem) {
+  .img-quemSomos {
+    display: none;
+  }
+  #content-quemSomos {
+    margin-right: 7.5rem;
+  }
+}
+
+@media (max-width: 36.25rem) {
+  #content-quemSomos {
+    text-align: center;
+  }
+}
+
+@media (max-width: 50rem) {
+  #box-nossoTime {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    text-align: center;
+
+    padding-right: 2.44rem;
+  }
+
+  .content-box-nossoTime {
+    margin-left: 0px;
+  }
 }
