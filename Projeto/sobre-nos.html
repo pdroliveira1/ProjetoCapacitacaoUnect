@@ -13,18 +13,43 @@
   </head>
   <body>
     <header>
+
       <a href="sobre-nos.html" id="sobreHeader" class="opcao item">sobre nós</a>
       <a href="servicos.html" id="servicosHeader" class="opcao item">serviços</a>
-      <a href="index.html" id="logoHeader"
-        ><img src="Assets/logo_escura 1 (1).svg" alt="logo cafe" />Palavras
-        Cafeínadas</a
-      >
-      <a href="entre-em-contato.html" id="contatoHeader" class="opcao item"
-        >contato</a
-      >
-      <p id="telefoneHeader" class="item">
-        <img src="Assets/telefone.svg" alt="telefone"  />19-991256972
-      </p>
+      <a href="index.html" id="logoHeader">
+  
+        <picture>
+          <source media="(max-width: 800px)" srcset="Assets/logo_escura_2.svg">
+          <img src="Assets/logo_escura 1 (1).svg" alt="logo cafe">Palavras Cafeínadas
+        </picture>
+      
+      </a>
+  
+      <a href="entre-em-contato.html" id="contatoHeader" class="opcao item">contato</a>
+      <p class="item telefoneHeader"><img src="Assets/telefone.svg" alt="telefone">19-991256972</p>
+  
+      <div class="ConteinerMenu">
+        <input type="checkbox" id="menu" class="ConteinerBotao">
+        <label for="menu">
+          <span class="ConteinerMenuHamburger ConteinerImagem"></span>
+        </label>
+        <ul class="ListaMenu">
+          <li class="ListaMenu_item">
+            <a href="sobre-nos.html" class="ListaMenu_link">sobre-nós</a>
+          </li>
+          <li class="ListaMenu_item">
+            <a href="servicos.html" class="ListaMenu_link">serviços</a>
+          </li>
+          <li class="ListaMenu_item">
+            <a href="entre-em-contato.html" class="ListaMenu_link">contato</a>
+          </li>
+        </ul>
+  
+  
+  
+      </div>
+  
+  
     </header>
     <main>
       <section id="banner">
