@@ -4,7 +4,7 @@
 
 <h2 align="center">Palavras Cafeinadas</h2>
 
-<p align="center"> ## ☕Palavras Cafeinadas📕 </p>
+## ☕Palavras Cafeinadas📕
 Projeto de capacitação da empresa júnior UNECT JR
 
 <!--ts-->
