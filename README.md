@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://github.com/pdroliveira1/ProjetoCapacitacaoUnect/blob/main/Projeto/Assets/logo_branca.svg" width="180" title="hover text">
+  <img src=" https://github.com/pdroliveira1/ProjetoCapacitacaoUnect/blob/main/Projeto/Assets/logo_branca.svg" width="180" title="hover text">
 </div>
 
 <h2 align="center">Palavras Cafeinadas</h2>
