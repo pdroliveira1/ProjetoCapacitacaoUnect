@@ -1,15 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+main {
+  padding-right: 7.5rem;
+}
 
 #contact-box {
-  display: flex;
+  display: grid;
+  grid-template-columns: 0.71fr 0.9584fr;
   margin-bottom: 3.5rem;
 }
 
 #info-lateral {
   display: inline-block;
 
-  width: 31.875rem;
+  width: auto;
 
   background: hsla(24, 51%, 37%, 1);
   border-radius: 0.5rem 0rem 0rem 0.5rem;
@@ -22,7 +28,7 @@
   content: '';
   display: flex;
 
-  width: 21.75rem;
+  width: auto;
   height: 0.19rem;
 
   background: hsla(27, 41%, 49%, 1);
@@ -40,12 +46,15 @@
   background: hsla(45, 29%, 95%, 1);
   border-radius: 0rem 0.5rem 0rem 0.5rem;
 
-  width: 43.125rem;
+  width: auto;
 
   padding-top: 2.69rem;
   padding-left: 2.5rem;
+  padding-right: 2.5rem;
 }
+
 .main-title {
+  display: inline-block;
   color: hsla(23, 100%, 6%, 1);
 
   font-family: 'Cormorant Garamond';
@@ -129,7 +138,7 @@
 }
 
 .button-txt {
-  display: inline-block;
+  display: flex;
 
   color: hsla(0, 0%, 94%, 1);
 
@@ -143,6 +152,7 @@
 }
 
 .button-img {
+  display: flex;
   margin-left: 1.25rem;
 }
 
@@ -151,7 +161,7 @@
 }
 
 .title-form {
-  display: block;
+  display: inline-block;
   color: hsla(23, 100%, 6%, 1);
 
   font-family: 'Open Sans';
@@ -168,9 +178,11 @@ input {
   border: 1px solid hsla(24, 51%, 37%, 1);
   border-radius: 0.5rem;
 
+  display: block;
+
   font-size: 1.125rem;
 
-  width: 38.06rem;
+  width: 100%;
 
   padding: 2rem 1rem;
 
@@ -184,4 +196,78 @@ input {
 
 .input-mensagem {
   height: 13.75rem;
+}
+
+/*Media Queries*/
+
+@media (max-width: 800px) {
+  main {
+    padding-top: 2rem;
+    padding-left: 3.75rem;
+    padding-right: 3.75rem;
+  }
+
+  .main-title {
+    font-size: 2.125rem;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.125rem;
+    line-height: 2.625rem;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+
+    margin: 0px;
+  }
+
+  .main-title::after {
+    width: 23.125rem;
+
+    margin-left: -0.75rem;
+  }
+
+  #contact-box {
+    display: block;
+
+    padding-top: 2.25rem;
+    padding-bottom: 4.5625rem;
+  }
+
+  #info-lateral {
+    display: none;
+  }
+
+  #info-boxes {
+    border-radius: 0.5rem;
+    box-shadow: 0 0.125rem 0 1.5rem hsla(24, 51%, 37%, 1);
+
+    padding-bottom: 1.25rem;
+
+    font-size: 1.375rem;
+  }
+
+  #info-boxes .button {
+    display: flex;
+    justify-content: center;
+
+    width: 15.125rem;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 1rem 2rem;
+  }
+
+  #info-boxes .button .button-txt {
+    font-family: 'Mulish';
+    font-size: 0.875rem;
+    font-weight: 800;
+    font-style: normal;
+    letter-spacing: 0.03em;
+    line-height: 1.5rem;
+    text-align: center;
+  }
+
+  #info-boxes .button .button-img {
+    margin-left: 0.625rem;
+  }
 }

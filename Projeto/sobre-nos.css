@@ -7,7 +7,7 @@
   font-family: 'Cormorant Garamond';
   line-height: 6.69rem;
 
-  width: auto;
+  width: 100%;
   height: calc(100vh - 6.25rem);
 
   background-size: cover;
@@ -19,25 +19,29 @@
       rgba(0, 0, 0, 0.54) 51.88%,
       rgba(0, 0, 0, 0.24) 100%
     ),
-    url(Assets/cafe-sobre-nos-titulo.png);
+    url(/Assets/cafe-sobre-nos-titulo.png);
 
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr;
   align-items: center;
   justify-content: center;
+  text-align: center;
 
   margin-bottom: 3.25rem;
 }
 
+#content-banner {
+  display: flex;
+  justify-content: center;
+}
+
 #quem-somos {
-  margin-left: 7.5rem;
-  margin-bottom: 2.4rem;
+  padding-left: 6.5rem;
 }
 
 #quem-somos .topic-title {
   color: hsla(23, 100%, 6%, 1);
   line-height: 3.5rem;
-
-  margin-bottom: 2.5rem;
 }
 
 #quem-somos .topic-title::after {
@@ -50,18 +54,15 @@
   z-index: -1;
   margin-top: -2rem;
   margin-left: -1rem;
+  margin-bottom: 2.5625rem;
 }
 
 #content-quemSomos {
-  display: flex;
+  display: grid;
+  grid-template-columns: 0.6fr 1fr;
   align-items: center;
 
   gap: 6.69rem;
-}
-
-#paragraphs-quemSomos {
-  width: 37.94rem;
-  display: inline-block;
 }
 
 #paragraphs-quemSomos .txt-quemSomos {
@@ -137,10 +138,7 @@
 }
 
 .img-quemSomos {
-  margin-bottom: 4.48rem;
   margin-left: 13.03rem;
-
-  max-width: 100%;
 }
 
 .box-carolina {
@@ -194,9 +192,49 @@
 }
 
 /*Media Queries*/
-@media (max-width: 45.375rem) {
-  h1 {
-    text-align: center;
+
+@media (max-width: 800px) {
+  #banner {
+    width: 100%;
+    height: auto;
+    padding: 7.875rem 7.25rem 7.875rem 7.25rem;
+    margin-bottom: 0px;
+  }
+  #banner .main-title {
+    font-size: 4.75rem;
+
+    max-width: none;
+    max-height: none;
+  }
+
+  #quem-somos .topic-title {
+    font-size: 2.125rem;
+  }
+
+  #quem-somos .topic-title::after {
+    width: 15.8125rem;
+    height: 1.3125rem;
+
+    margin-top: -1.85rem;
+    margin-left: -0.7rem;
+  }
+
+  #quem-somos {
+    padding-left: 1.5rem;
+  }
+
+  #content-quemSomos {
+    display: block;
+    font-size: 1.125rem;
+  }
+
+  #box-nossoTime {
+    background: none;
+  }
+
+  .box-nome,
+  .box-txt {
+    color: hsla(0, 0%, 100%, 1);
   }
 }
 
@@ -204,12 +242,9 @@
   .img-quemSomos {
     display: none;
   }
-  #content-quemSomos {
-    margin-right: 7.5rem;
-  }
 }
 
-@media (max-width: 36.25rem) {
+@media (max-width: 35rem) {
   #content-quemSomos {
     text-align: center;
   }
