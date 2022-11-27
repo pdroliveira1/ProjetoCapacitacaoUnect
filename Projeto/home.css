@@ -10,6 +10,7 @@
   height: calc(100vh - 6.25rem) ;
   width: 100%;
   padding-top: 4rem;
+  padding-bottom: 88px;
   padding-left: 8.26% ;
   background-size: cover;
   background-repeat: no-repeat;
@@ -59,45 +60,44 @@ main  #conteudosobre{
   display: flex;
   width: 100%;
   height: 100%;
-  justify-content: space-between;
   align-items: flex-start;
- 
+  column-gap: 200px;
 }
 
 main #infosobre{
   height: 100%;
   width: 100%;
-  max-width: 36.813rem;
   display: flex;
   flex-direction: column;
   align-items: baseline;
 }
 
 main #sobre #imagemsobre { 
-  width: 35% ;
+  width: auto ;
   height: auto;
+  align-self: flex-end;
 }
 
 
 main #textosobre{
   width: 100% ;
-  height: 18.75rem;
-  max-width: 36.875rem;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  row-gap: 3rem;
   padding-left: 1rem;
 }
 
 main #paragrafosobre{
-  height: 11.5rem;
+  height: 100%;
   width: 100%;
-  max-width: 36rem;
   font-size: 1.125rem;
   font-weight: 400;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  row-gap: 1rem;
   
 }
 
@@ -144,7 +144,6 @@ main #paragrafosobre{
 }
 
 main #venhaseapaixonar{
-  height: 44.875rem;
   width: 100%;
   padding-top: 3.0625rem;
   padding-bottom: 3.5rem;
@@ -152,10 +151,14 @@ main #venhaseapaixonar{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  row-gap: 3.5rem;
 }
 
-main #venhaseapaixonar h2{
+main #venhaseapaixonar .txtmobile{
+  display: none;
+}
+
+main #venhaseapaixonar .txtweb{
   font-family: Cormorant Garamond;
   font-size: 3rem;
   font-weight: 700;
@@ -177,9 +180,8 @@ main #linkServicos{
   display: flex;
   align-items: center;
   justify-content: center;
-  column-gap: 1rem;
+  column-gap: 228px;
   flex-wrap: wrap;
-  width: 49.5rem;
 }
 
 main #venhaseapaixonar .buttondecoration{
@@ -197,8 +199,7 @@ main #venhaseapaixonar .buttondecoration:hover{
 
   #banner{
     width: 100%;
-    height: 100%;
-    max-height: 21.5rem;
+    height: auto;
     padding: 2rem 2.93rem 3.5rem 1.5rem;
   }
 
@@ -207,7 +208,7 @@ main #venhaseapaixonar .buttondecoration:hover{
     height: 100%;
     max-width: none;
     max-height: none;
-
+    row-gap: 40px;
   }
 
   #infobanner{
@@ -222,22 +223,57 @@ main #venhaseapaixonar .buttondecoration:hover{
     font-size: 1.25rem;
   }
 
+  #conteudobanner .buttondecoration{
+    width: auto;
+    column-gap: 1rem;
+  }
+
+  .btmobile{
+    display: flex;
+  }
+
+  .btweb{
+    display: none;
+  }
+
 main #sobre{
     padding-top: 2rem ;
-    padding-right: 1,5rem ;
+    padding-right: 1.5rem ;
     padding-bottom: 2rem ;
-    padding-left: 1,5rem;
+    padding-left: 1.5rem;
   }
 
   #imagemsobre{
     display: none;
   }
 
+  main #textosobre{
+    align-items: center;
+  }
+
   #imgcafe{
     background-size: contain;
   }
 
+  main #linkServicos{
+    column-gap: 1.5rem;
+  }
 
+  main #venhaseapaixonar .txtweb{
+    display: none;
+  }
+  
+  main #venhaseapaixonar .txtmobile{
+    display: block;
+    font-family: Cormorant Garamond;
+    font-size: 3rem;
+    font-weight: 700;
+    color: hsla(45, 29%, 95%, 1);
+  }
+
+  main #venhaseapaixonar .buttondecoration{
+    display: none;
+  }
 
 
 

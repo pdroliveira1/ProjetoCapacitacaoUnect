@@ -57,42 +57,48 @@
     </header>
     <main>
       <section id="bannerservicos">
-        <img src="Assets/detalhe livro.png" alt="livros" />
         <div id="textbanner">
           <h1>SERVIÇOS</h1>
         </div>
-        <img src="Assets/detalhe livro 2.png" alt="livros" />
+        <div class="ConteinerImgBanner">
+          <picture >
+            <source media="(max-width: 800px)" srcset="Assets/detalhelivro(1).png">
+            <img src="Assets/detalhe livro.png" alt="livros" />
+          </picture>
+          <picture >
+            <source media="(max-width: 800px)" srcset="Assets/detalhelivro3.png">
+            <img src="Assets/detalhe livro 2.png" alt="livros" />
+          </picture>
+        </div>
       </section>
       <section id="livraria">
         <div class="decoration">
           <h2>LIVRARIA</h2>
         </div>
-        <div id="conteinerlivraria">
-          <div id="maisvendidos">
-            <h3>OS MAIS VENDIDOS</h3>
-            <div id="imagenslivros">
-              <img
-                src="Assets/Livro 1.png"
-                alt="livro a historia sem fim"
-                class="livros"
-              />
-              <img
-                src="Assets/Livro 2.png"
-                alt="livros torto arado"
-                class="livros"
-              />
-              <img
-                src="Assets/Livro 3.png"
-                alt="livros rapido e divagar"
-                class="livros"
-              />
-              <img src="Assets/Livro 4.png" alt="livros 1984" class="livros" />
-              <img
-                src="Assets/Livro 5.png"
-                alt="livros o milagre da manha"
-                class="livros"
-              />
-            </div>
+        <div id="maisvendidos">
+          <h3>OS MAIS VENDIDOS</h3>
+          <div id="imagenslivros">
+            <img
+              src="Assets/Livro 1.png"
+              alt="livro a historia sem fim"
+              class="livros"
+            />
+            <img
+              src="Assets/Livro 2.png"
+              alt="livros torto arado"
+              class="livros"
+            />
+            <img
+              src="Assets/Livro 3.png"
+              alt="livros rapido e divagar"
+              class="livros"
+            />
+            <img src="Assets/Livro 4.png" alt="livros 1984" class="livros" />
+            <img
+              src="Assets/Livro 5.png"
+              alt="livros o milagre da manha"
+              class="livros"
+            />
           </div>
         </div>
       </section>

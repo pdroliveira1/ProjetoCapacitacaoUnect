@@ -47,6 +47,10 @@ header .opcao::after{
   border-radius: 1px;
 }
 
+header #logoHeader{
+  flex-grow: 3;
+}
+
 header #logoHeader picture{
   display: flex;
   flex-direction: column;
@@ -77,7 +81,11 @@ header .ConteinerMenu{
   header{
     height: 8.125rem;
     padding: 0 1.5rem;
-    position: relative;
+    position: fixed;
+  }
+
+  header #logoHeader{
+    flex-grow: 0;
   }
 
   header .item{
