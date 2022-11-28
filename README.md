@@ -53,10 +53,10 @@ Projeto de capacitação da empresa júnior Unect Jr.
   A seguir, visualiza-se as páginas presentes nesse projeto:
 </p>
 <p>
-  ╭⋟ Homepage;
-  ├  Sobre Nós;
-  ├  Serviços;
-  ╰⋟ Entre em Contato.
+  ╭⋟ Homepage;<br>
+  ├  Sobre Nós;<br>
+  ├  Serviços;<br>
+  ╰⋟ Entre em Contato.<br>
   </p>
 
 #### ╰⋟ Responsividade <a name="responsive"></a>
