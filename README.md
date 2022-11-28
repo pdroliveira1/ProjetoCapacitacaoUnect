@@ -41,7 +41,7 @@ Projeto de capacitação da empresa júnior Unect Jr.
   </p>
 <p align="center">
   
-  Utilizando essas linguagens de programação citadas acima, foi implementado responsividade em todos as páginas do projeto, ou seja, o site não só é responsivo em cada resolução de tela de computadores ou notebooks, como também é responsivo para dispositivos móveis(mobile).
+  Utilizando essas linguagens de programação citadas acima, foi implementado responsividade em todas as páginas do projeto, ou seja, o site não só é responsivo em cada resolução de tela de computadores ou notebooks, como também é responsivo para dispositivos móveis(mobile).
   </p>
 
 ### ╭⋟ Funções <a name="feature"></a>
@@ -59,14 +59,14 @@ Projeto de capacitação da empresa júnior Unect Jr.
   ╰⋟ Entre em Contato.
   </p>
 
-#### ╰⋟ Responsividade <a name="#responsive"></a>
+#### ╰⋟ Responsividade <a name="responsive"></a>
 
 <p align="center">
   As páginas citadas acima, todas foram aplicadas a responsividade, ou seja, seja maior ou principalmente menor a resolução da sua tela, a intenção da responsividade, busca fazer com que o site se ajuste com a resolução da tela onde o site se encontra.<br>
   É possível realizar o teste da responsividade e visualizar o efeito de cada box do HTML do site apenas aumentando e diminuindo seu navegador pelo computador, onde será possível visualizar imagens que só aparecem em determinada resolução, e o posicionamento de cada box que está programado para cada resolução.
   </p>
   
- ### ╰⋟ Direitos e Créditos
+ ### ╰⋟ Direitos e Créditos <a name="copyright">
  
  Desenvolvido por Unect Jr. Todos os direitos reservados ©.<br>
  <br>
