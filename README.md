@@ -66,7 +66,7 @@ Projeto de capacitação da empresa júnior Unect Jr.
   É possível realizar o teste da responsividade e visualizar o efeito de cada box do HTML do site apenas aumentando e diminuindo seu navegador pelo computador, onde será possível visualizar imagens que só aparecem em determinada resolução, e o posicionamento de cada box que está programado para cada resolução.
   </p>
   
- ### ╰⋟ Direitos e Créditos <a name="copyright">
+ ### ╰⋟── Direitos e Créditos <a name="copyright">
  
  Desenvolvido por Unect Jr. Todos os direitos reservados ©.<br>
  <br>
