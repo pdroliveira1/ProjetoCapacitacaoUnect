@@ -32,13 +32,9 @@ Projeto de capacitação da empresa júnior Unect Jr.
  #### ╰⋟ Linguagem de Programação <a name="programLanguage"></a>
  
  <p align="center">
-  Para esse projeto foi utilizado as seguinte linguagens de programação:
-  
+  Para esse projeto foi utilizado a linguagem de marcação HTML e a tecnologia CSS.
   </p>
-  <p>
-    ╭⋟ HTML(HyperText Markup Language);<br>
-    ╰⋟ CSS(Cascading Style Sheet).
-  </p>
+
 <p align="center">
   
   Utilizando essas linguagens de programação citadas acima, foi implementado responsividade em todas as páginas do projeto, ou seja, o site não só é responsivo em cada resolução de tela de computadores ou notebooks, como também é responsivo para dispositivos móveis(mobile).
