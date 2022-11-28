@@ -7,7 +7,7 @@
 ## ☕Palavras Cafeinadas📕
 Projeto de capacitação da empresa júnior Unect Jr.
 
-### ・Sumário:
+### ─ Sumário:
 
 
 <!--ts-->
