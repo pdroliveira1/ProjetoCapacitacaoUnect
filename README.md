@@ -69,6 +69,7 @@ Projeto de capacitação da empresa júnior Unect Jr.
  ### ╰⋟ Direitos e Créditos
  
  Desenvolvido por Unect Jr. Todos os direitos reservados ©.<br>
+ <br>
  Créditos de imagens:<br>
 ╭⋟ <a href="https://unsplash.com/@nate_dumlao?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nathan Dumlao</a> Site: <a href="https://unsplash.com/">Unsplash</a><br>
 ├  <a href="https://unsplash.com/@jakenackos">Jake Nackos</a> Site: <a href="https://unsplash.com/">Unsplash</a><br>
