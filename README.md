@@ -26,7 +26,7 @@ Projeto de capacitação da empresa júnior Unect Jr.
 
  <p align="center">
   Esse projeto busca trazer uma Landing Page de um protótipo, onde o mesmo segue o conceito de uma cafeteria. O protótipo segue de forma imaginária, onde não se dá por uma simples cafeteria, e sim busca trazer o público literário também, onde a mesma oferece serviços de livraria, trazendo não só o cafézinho da tarde, como a leitura para os amantes da mesma, ou até para aqueles que buscam trazer ela para sua vida, conhecendo uma forma confortável e aconchegante de entrar nesse mundo.<br>
-  **Vale ressaltar que essa Landing Page se trata de um projeto para o processo de capacitação de Trainee da empresa júnior Unect Jr.**
+  Vale ressaltar que essa Landing Page se trata de um projeto para o processo de capacitação de Trainee da empresa júnior Unect Jr.
 </p>
  
  #### ╰⋟ Linguagem de Programação <a name="programLanguage"></a>
