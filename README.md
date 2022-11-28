@@ -49,7 +49,7 @@ Projeto de capacitação da empresa júnior Unect Jr.
 #### ├  Páginas <a name="pages"></a>
 
 <p align="center">
-  A Landing Page desse projeto consta com diversas páginas, desde a home até a área de contato com a empresa. Vale lembrar que esse projeto não tem como objetivo implementação da parte Back-end, ou seja, funções de contato, formulários, etc. Não estarão presentes no mesmo, onde, como já dito, é um projeto realizado para o processo de capacitação de Trainee da empresa júnio Unect Jr.<br>
+  A Landing Page desse projeto consta com diversas páginas, desde a Homepage até a área de contato com a empresa. Vale lembrar que esse projeto não tem como objetivo implementação da parte Back-end, ou seja, funções de envio de dados, formulários, etc. Não estarão presentes no mesmo, onde, como já dito, é um projeto realizado para o processo de capacitação de Trainee da empresa júnior Unect Jr.<br>
   A seguir, visualiza-se as páginas presentes nesse projeto:
 </p>
 <p>
@@ -62,7 +62,7 @@ Projeto de capacitação da empresa júnior Unect Jr.
 #### ╰⋟ Responsividade <a name="responsive"></a>
 
 <p align="center">
-  As páginas citadas acima, todas foram aplicadas a responsividade, ou seja, seja maior ou principalmente menor a resolução da sua tela, a intenção da responsividade, busca fazer com que o site se ajuste com a resolução da tela onde o site se encontra.<br>
+  As páginas citadas acima, todas foram aplicadas a responsividade, assim, seja maior ou menor a resolução da sua tela, a esponsividade busca fazer com que o site se ajuste com a resolução da tela onde o site se encontra.<br>
   É possível realizar o teste da responsividade e visualizar o efeito de cada box do HTML do site apenas aumentando e diminuindo seu navegador pelo computador, onde será possível visualizar imagens que só aparecem em determinada resolução, e o posicionamento de cada box que está programado para cada resolução.
   </p>
   
