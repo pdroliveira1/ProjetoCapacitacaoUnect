@@ -12,8 +12,8 @@ Projeto de capacitação da empresa júnior Unect Jr.
 
 <!--ts-->
   * [Sobre o Projeto](#about)
-    -[Descrição](#description)
-    -[Linguagem de Programação](#programLanguage)
+    * [Descrição](#description)
+    * [Linguagem de Programação](#programLanguage)
   * [Funções](#feature)
   * [Direitos e Créditos](#copyright)
 <!--te-->
@@ -33,7 +33,7 @@ Projeto de capacitação da empresa júnior Unect Jr.
   
   </p>
   <p>
-    ┌ HTML(HyperText Markup Language);
+    ┌ HTML(HyperText Markup Language);<br>
     └ CSS(Cascading Style Sheet).
   </p>
 <p align="center">
