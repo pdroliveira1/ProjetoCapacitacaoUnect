@@ -49,6 +49,10 @@
   word-break: break-word;
 }
 
+.btmobile{
+  display: none;
+}
+
 main #sobre {
   width: 100%;
   height: auto;
